@@ -1,0 +1,53 @@
+.piano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.white-keys {
+  display: flex;
+}
+
+.black-keys {
+  display: flex;
+  position: relative;
+  margin-left: -30px;
+}
+
+.key {
+  width: 70px;
+  height: 220px;
+  border: 1px solid #000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.white-key {
+  background-color: #fff;
+}
+
+.black-key {
+  width: 33px;
+  height: 120px;
+  background-color: #000;
+  z-index: 1;
+  position: absolute;
+}
+
+
+.piano {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.white-key:hover {
+  background-color: #f2f2f2;
+}
+
+.black-key:hover {
+  background-color: #666;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transform: translateY(4px);
+}
+
